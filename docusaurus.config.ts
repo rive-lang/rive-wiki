@@ -83,6 +83,11 @@ const config: Config = {
       respectPrefersColorScheme: true,
       defaultMode: 'light',
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     navbar: {
       title: 'Rive Wiki',
       logo: {

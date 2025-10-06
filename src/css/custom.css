@@ -432,3 +432,26 @@ a:hover {
 [data-theme='dark'] .dropdown__link:hover {
   background-color: rgba(255, 255, 255, 0.06);
 }
+
+/* Mobile Sidebar - Fix full height display */
+@media (max-width: 996px) {
+  /* Ensure navbar sidebar is full height with solid background */
+  .navbar-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    overflow-y: auto !important;
+    background-color: var(--ifm-background-color) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Remove height restrictions on items container */
+  .navbar-sidebar__items {
+    max-height: none !important;
+    height: auto !important;
+  }
+}

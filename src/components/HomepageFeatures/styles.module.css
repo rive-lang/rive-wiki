@@ -5,15 +5,31 @@
   width: 100%;
 }
 
+/* Override Docusaurus row to use flexbox gap */
+.featureRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 !important; /* Remove Docusaurus negative margin */
+}
+
+/* Override col padding when using gap */
+.featureRow > * {
+  padding: 0 !important; /* Remove Docusaurus column padding */
+}
+
 .feature {
-  margin-bottom: 2rem;
   padding: 2rem;
   background-color: var(--ifm-card-background-color);
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
   border: 1px solid rgba(0, 0, 0, 0.05);
   transition: all var(--ifm-transition-slow);
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Calculate width: (100% - 2 gaps * 2rem) / 3 cards */
+  flex: 1 1 calc((100% - 4rem) / 3);
+  min-width: 250px; /* Ensure cards don't get too small on smaller screens */
 }
 
 [data-theme='dark'] .feature {
