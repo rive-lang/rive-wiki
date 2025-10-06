@@ -5,14 +5,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <SpeedInsights />
     <header className={clsx('hero', styles.heroBanner)}>
       <div className={styles.heroBackground}>
         <div className={styles.gradientOrb1}></div>
