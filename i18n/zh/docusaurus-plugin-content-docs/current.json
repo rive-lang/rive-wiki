@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.🚀 Learn Rive": {
+    "message": "🚀 学习Rive",
+    "description": "The label for category 🚀 Learn Rive in sidebar learnSidebar"
+  },
+  "sidebar.learnSidebar.category.📚 Basics": {
+    "message": "📚 基础",
+    "description": "The label for category 📚 Basics in sidebar learnSidebar"
+  },
+  "sidebar.learnSidebar.category.🔧 Intermediate": {
+    "message": "🔧 中级",
+    "description": "The label for category 🔧 Intermediate in sidebar learnSidebar"
+  },
+  "sidebar.developSidebar.category.🔧 Develop": {
+    "message": "🔧 开发",
+    "description": "The label for category 🔧 Develop in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.⚙️ Compiler": {
+    "message": "⚙️ 编译器",
+    "description": "The label for category ⚙️ Compiler in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.👥 Community": {
+    "message": "👥 社区",
+    "description": "The label for category 👥 Community in sidebar developSidebar"
+  },
+  "sidebar.learnSidebar.link.Getting Started": {
+    "message": "快速开始",
+    "description": "The label for the sidebar item linking to Getting Started"
+  },
+  "sidebar.learnSidebar.link.Basic Syntax": {
+    "message": "基本语法",
+    "description": "The label for the sidebar item linking to Basic Syntax"
+  },
+  "sidebar.learnSidebar.link.Variables & Types": {
+    "message": "变量和类型",
+    "description": "The label for the sidebar item linking to Variables & Types"
+  },
+  "sidebar.learnSidebar.link.Control Flow": {
+    "message": "控制流",
+    "description": "The label for the sidebar item linking to Control Flow"
+  },
+  "sidebar.learnSidebar.link.Functions": {
+    "message": "函数",
+    "description": "The label for the sidebar item linking to Functions"
+  },
+  "sidebar.learnSidebar.link.Collections": {
+    "message": "集合",
+    "description": "The label for the sidebar item linking to Collections"
+  },
+  "sidebar.developSidebar.link.Architecture": {
+    "message": "架构",
+    "description": "The label for the sidebar item linking to Architecture"
+  },
+  "sidebar.developSidebar.link.Contributing": {
+    "message": "贡献指南",
+    "description": "The label for the sidebar item linking to Contributing"
+  }
+}

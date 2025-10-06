@@ -1,0 +1,54 @@
+{
+  "link.title.Documentation": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.🚀 Getting Started": {
+    "message": "🚀 快速开始",
+    "description": "The label of footer link with label=🚀 Getting Started linking to /docs/learn/basics/getting-started"
+  },
+  "link.item.label.📚 Learn Rive": {
+    "message": "📚 学习Rive",
+    "description": "The label of footer link with label=📚 Learn Rive linking to /docs/learn/basics/basic-syntax"
+  },
+  "link.item.label.🔧 Develop": {
+    "message": "🔧 开发",
+    "description": "The label of footer link with label=🔧 Develop linking to /docs/develop/compiler/architecture"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/rive-lang/rive"
+  },
+  "link.item.label.Issues": {
+    "message": "问题反馈",
+    "description": "The label of footer link with label=Issues linking to https://github.com/rive-lang/rive/issues"
+  },
+  "link.item.label.Discussions": {
+    "message": "讨论区",
+    "description": "The label of footer link with label=Discussions linking to https://github.com/rive-lang/rive/discussions"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.Contributing": {
+    "message": "贡献指南",
+    "description": "The label of footer link with label=Contributing"
+  },
+  "link.item.label.Code of Conduct": {
+    "message": "行为准则",
+    "description": "The label of footer link with label=Code of Conduct"
+  },
+  "copyright": {
+    "message": "版权所有 © {currentYear} Rive 项目贡献者。使用 Docusaurus 构建。",
+    "description": "The footer copyright"
+  }
+}

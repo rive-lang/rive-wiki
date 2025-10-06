@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Rive Wiki",
+    "description": "The title in the navbar"
+  },
+  "item.label.🚀 Learn": {
+    "message": "🚀 学习",
+    "description": "Navbar item with label 🚀 Learn"
+  },
+  "item.label.🔧 Develop": {
+    "message": "🔧 开发",
+    "description": "Navbar item with label 🔧 Develop"
+  },
+  "item.label.📝 Blog": {
+    "message": "📝 博客",
+    "description": "Navbar item with label 📝 Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
